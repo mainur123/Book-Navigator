@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/img_20180612_124852_430"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+
+        android:id="@+id/buttonid"
+        android:layout_width="307dp"
+        android:layout_height="79dp"
+        android:layout_margin="60dp"
+        android:background="@color/buttoncolor"
+        android:drawableLeft="@drawable/binoculars"
+        android:orientation="vertical"
+        android:text="@string/button_name"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button2id"
+        android:layout_width="313dp"
+        android:layout_height="78dp"
+        android:layout_margin="50dp"
+        android:background="@color/buttoncolor"
+        android:drawableLeft="@drawable/download"
+        android:text="@string/button2_name"
+
+        android:textSize="30sp" />
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Book Navigator</string>
+    <string name="button_name">find book</string>
+    <string name="button2_name">borrowed book</string>
+    <string name="lay2button1_name">CSE</string>
+    <string name="lay2button2_name">EEE</string>
+    <string name="lay2button3_name">ME</string>
+    <string name="lay2button4_name">IPE</string>
+    <string name="lay2button5_name">ENGLISH</string>
+    <string name="lay3button1_name">search</string>
+    <string name="lay3button2_name">view list</string>
+
+    <string-array name="book_names">
+        <item>Book 1</item>
+        <item>Book 2</item>
+        <item>Book 3</item>
+        <item>Book 4</item>
+        <item>Book 5</item>
+        <item>Book 6</item>
+        <item>Book 7</item>
+        <item>Book 8</item>
+        <item>Book 9</item>
+        <item>Book 10</item>
+        <item>Book 11</item>
+        <item>Book 12</item>
+        <item>Book 13</item>
+        <item>Book 14</item>
+
+    </string-array>
+
+
+</resources>
