@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.hp.minted2">
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -17,9 +21,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Main2Activity" />
-        <activity android:name=".CSE" />
-        <activity android:name=".CSEop" />
-        <activity android:name=".return1"></activity>
+        <activity android:name=".BookListActivity"></activity>
     </application>
 
 </manifest>

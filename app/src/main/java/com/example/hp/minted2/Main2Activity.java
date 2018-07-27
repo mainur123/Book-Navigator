@@ -22,7 +22,7 @@ public class Main2Activity extends AppCompatActivity {
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Main2Activity.this,CSE.class);
+                Intent intent = new Intent(Main2Activity.this,BookListActivity.class);
                 startActivity(intent);
             }
         });
