@@ -26,7 +26,9 @@ dependencies {
 
     implementation 'com.android.support:recyclerview-v7:27.1.1'
 
-    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.squareup.picasso:picasso:2.71828'/*Picasso is an image library for Android.
+    It's created and maintained by Square, and caters to image loading and processing.
+    It simplifies the process of displaying images from external locations.*/
 
     implementation 'com.android.support.constraint:constraint-layout:1.1.0'
     implementation 'com.google.firebase:firebase-database:11.8.0'

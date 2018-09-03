@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.hp.minted2">
-    
-    <uses-permission android:name="android.permission.INTERNET"/>
 
+    <!-- add internet permission -->
     <uses-permission android:name="android.permission.INTERNET" />
+    <!-- external storage permission -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -21,7 +22,17 @@
             </intent-filter>
         </activity>
         <activity android:name=".Main2Activity" />
-        <activity android:name=".BookListActivity"></activity>
+        <activity android:name=".BookListCSE" />
+        <activity android:name=".BookListEEE" />
+        <activity android:name=".BookListME" />
+        <activity android:name=".BookListIpe" />
+        <activity android:name=".PostDetailActivity" />
+        <activity android:name=".Done" />
+        <activity android:name=".BookListENG" />
+        <activity android:name=".BookListBBA" />
+        <activity android:name=".BookListMath" />
+        <activity android:name=".BookListChm" />
+        <activity android:name=".BookListPhy"></activity>
     </application>
 
 </manifest>

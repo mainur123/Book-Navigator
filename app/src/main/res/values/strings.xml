@@ -10,23 +10,19 @@
     <string name="lay3button1_name">search</string>
     <string name="lay3button2_name">view list</string>
 
-    <string-array name="book_names">
-        <item>Book 1</item>
-        <item>Book 2</item>
-        <item>Book 3</item>
-        <item>Book 4</item>
-        <item>Book 5</item>
-        <item>Book 6</item>
-        <item>Book 7</item>
-        <item>Book 8</item>
-        <item>Book 9</item>
-        <item>Book 10</item>
-        <item>Book 11</item>
-        <item>Book 12</item>
-        <item>Book 13</item>
-        <item>Book 14</item>
 
-    </string-array>
+    <array name="genres">
+        <item>CSE</item>
+        <item>EEE</item>
+        <item>ME</item>
+        <item>IPE</item>
+        <item>ENG</item>
+        <item>BBA</item>
+        <item>MATH</item>
+        <item>PHYSICS</item>
+        <item>CHEMISTRY</item>
+
+    </array>
 
 
 </resources>
