@@ -14,7 +14,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -32,7 +32,8 @@
         <activity android:name=".BookListBBA" />
         <activity android:name=".BookListMath" />
         <activity android:name=".BookListChm" />
-        <activity android:name=".BookListPhy"></activity>
+        <activity android:name=".BookListPhy" />
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>
